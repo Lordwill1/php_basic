@@ -5,18 +5,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    // Scalar Data type
-    $string = "Daniel";
-    $int = 1234567;
-    $float = 2.54;
-    $bool = true;
-
-    // Array data type
-    $string = ["Daniel" , "chima", "John"];
-    
-
-
+    <?php 
+    $name = "LORDWILL KALU";
+    $int = 30;
     ?>
+
+    <P> My name is <?php echo $name;?>, I am <?php echo $int;?> years old and I am learning php!</P>
+
 </body>
 </html>
