@@ -5,9 +5,18 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-    echo "HELLO WORLD";
+    <?php
+    // Scalar Data type
+    $string = "Daniel";
+    $int = 1234567;
+    $float = 2.54;
+    $bool = true;
+
+    // Array data type
+    $string = ["Daniel" , "chima", "John"];
     
+
+
     ?>
 </body>
 </html>
