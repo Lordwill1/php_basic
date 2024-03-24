@@ -5,6 +5,11 @@ $firstname = htmlspecialchars($_POST["firstname"]);
 $lastname = htmlspecialchars($_POST["lastname"]);
 $favouritepet = htmlspecialchars($_POST["favouritepet"]);
 
+if  (empty($firstname) || empty($lastname)){
+    header("Location: index.php");
+}
+
+
 echo "These are the date that the user submitted:";
 echo "<br>";
 echo $firstname;
@@ -13,6 +18,11 @@ echo $lastname;
 echo "<br>";
 echo $favouritepet;
 
+header("Location: index.php");
+
+}
+else {
+    header("Location: index.php");
 }
 
 ?>
