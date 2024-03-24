@@ -5,12 +5,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-    $name = "LORDWILL KALU";
-    $int = 30;
-    ?>
 
-    <P> My name is <?php echo $name;?>, I am <?php echo $int;?> years old and I am learning php!</P>
+    <?php
+    echo $_SERVER ["DOCUMENT_ROOT"];
+    echo "<br>";
+    echo $_SERVER ["PHP_SELF"];
+    ?>
+    
 
 </body>
 </html>
