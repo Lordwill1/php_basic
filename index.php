@@ -60,7 +60,7 @@
 
 <body>
 
-
+    <h1>SUBMIT THE FORM BEFORE USING DISKOX CALCULATOR</h1>
 
     <form action="formhandler.php" method="POST">
             <label style="color:blue;" title="Enter your name!" for="firstname"><b>First Name</b></label>
@@ -69,7 +69,7 @@
 
             <br><br>
 
-            <label style="color:blue;" for="lastname"> Last Name </label>
+            <label style="color:blue;" for="lastname"><b> Last Name</b></label>
             <input id="lastname" type="text" name="lastname" placeholder="Last Name...">
 
             <br><br>
@@ -102,7 +102,7 @@
             <button type="submit">Submit</button>
     </form>
 
-    <h1>CALCULATOR</h1>
+    <h1>DISKOX CALCULATOR</h1>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <input type="number" name="num01" placeholder="Enter number one" required>
         <select name="operator">
