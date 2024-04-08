@@ -12,7 +12,9 @@
         "Biology"=>"Fruithful",
         "Physics"=>"Johnson",
     ];
-    echo count($school);
+    sort($school);
+    print_r($school);
+   
     ?>
 </body>
 </html>
