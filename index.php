@@ -12,7 +12,7 @@
         "Biology"=>"Fruithful",
         "Physics"=>"Johnson",
     ];
-    echo $school["English"];
+    print_r($school);
     ?>
 </body>
 </html>
