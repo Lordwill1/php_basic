@@ -6,15 +6,16 @@
 </head>
 <body>
     <?php
-    $school = [
-        "English"=>"John",
-        "Mathematics"=>"Victor",
-        "Biology"=>"Fruithful",
-        "Physics"=>"Johnson",
-    ];
-    array_push($school, "Chemistry", "Richard");
+    function sayHello($name) 
+    {
+        return "Hello  . $name . " ;
 
-    print_r($school);
+    }
+    
+
+    $man = sayHello("Sunshine");
+    echo $man;
+
    
     ?>
 </body>
