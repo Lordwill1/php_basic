@@ -13,6 +13,7 @@
         "Physics"=>"Johnson",
     ];
     sort($school);
+    
     print_r($school);
    
     ?>
