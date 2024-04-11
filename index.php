@@ -12,8 +12,8 @@
         "Biology"=>"Fruithful",
         "Physics"=>"Johnson",
     ];
-    sort($school);
-    
+    array_push($school, "Chemistry", "Richard");
+
     print_r($school);
    
     ?>
