@@ -6,15 +6,12 @@
 </head>
 <body>
     <?php
-    function sayHello($name) 
-    {
-        return "Hello  . $name . " ;
+    define("PI", 3.14   );
+    define("name", "Lordwill");
 
-    }
+    echo name;
     
-
-    $man = sayHello("Sunshine");
-    echo $man;
+    echo PI
 
    
     ?>
