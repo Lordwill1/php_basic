@@ -6,14 +6,9 @@
 </head>
 <body>
     <?php
-    define("PI", 3.14   );
-    define("name", "Lordwill");
-
-    echo name;
-    
-    echo PI
-
-   
+    for($i=0; $i<=10; $i++) {
+        echo "This is an iteration" . $i . "<br>";
+    }
     ?>
 </body>
 </html>
