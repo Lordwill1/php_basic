@@ -6,9 +6,14 @@
 </head>
 <body>
     <?php
-    for($i=0; $i<=10; $i++) {
-        echo "This is an iteration" . $i . "<br>";
+    $fruits = array("Apple" => "Red", "Banana" => "Yellow", "Orange" => "Orange");
+
+    foreach ($fruits as $fruit => $color) {
+        echo "This is a ". $fruit . ", that has a color of " . $color . "<br>";
+
+
     }
+
     ?>
 </body>
 </html>
