@@ -9,7 +9,7 @@
     $fruits = array("Apple" => "Red", "Banana" => "Yellow", "Orange" => "Orange");
 
     foreach ($fruits as $fruit => $color) {
-        echo "This is a ". $fruit . ", that has a color of " . $color . "<br>";
+        echo "This is a ". $fruit . ", that has a colour of " . $color . "<br>";
 
 
     }
