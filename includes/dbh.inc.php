@@ -1,3 +1,5 @@
+<?php
+
 $dsn = "mysql:host=localhost;dbname=myfirstdatabase";
 $dbusername = "root";
 $dbpassword = "";

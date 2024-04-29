@@ -5,15 +5,18 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    $fruits = array("Apple" => "Red", "Banana" => "Yellow", "Orange" => "Orange");
+    <h3>SIGN UP</h3>
 
-    foreach ($fruits as $fruit => $color) {
-        echo "This is a ". $fruit . ", that has a colour of " . $color . "<br>";
+    <form action="includes/formhandler.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <br>
+        <input type="password" name="pwd" placeholder="Password">
+        <br>
+        <input type="text" name="email" placeholder="E-mail">
+        <br>
+        <button>Sign up</button> 
+    </form>
 
-
-    }
-
-    ?>
 </body>
+
 </html>
